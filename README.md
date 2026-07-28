@@ -6,8 +6,7 @@ A full-stack food donation and food-waste-reduction platform that connects peopl
 
 Every day, usable food goes to waste while others go hungry. Hope bridges that gap by letting donors quickly list surplus food — with quantity, category, expiry, and location — and letting nearby receivers browse and claim it. Once claimed, a donor and receiver can chat in real time to coordinate handoff, and afterward rate each other to build trust in the community.
 
-# Key Features
-
+Key Features
 🔐 User authentication — signup/login with hashed passwords (bcrypt)
 🎭 Role-based accounts — Donor, Receiver, Volunteer, Admin
 🥗 Food listings by category — Veg, Non-Veg, Drinks, Snacks, Celebration/leftovers
@@ -19,7 +18,6 @@ Every day, usable food goes to waste while others go hungry. Hope bridges that g
 ⏱️ Automatic cleanup — expired food listings are removed automatically
 🌐 Multi-language support via a language context/switcher
 🚚 Volunteer dashboard to view available pickup tasks
-🛠️ Tech Stack
 
 # Frontend
 
