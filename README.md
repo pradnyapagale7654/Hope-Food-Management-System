@@ -52,28 +52,33 @@ The backend is an Express server following an MVC-style structure (models → co
 Uploaded images are served statically from the backend's /uploads directory.
 
 
-📁 Project Structure
+# 📁 Project Structure
+
+```text
 Hope-Food-Management-System/
+│
 ├── backend/
-│   ├── controllers/       # Business logic (auth, donate, order)
+│   ├── controllers/        # Business logic (auth, donate, order)
 │   ├── models/             # Mongoose schemas (User, Food, Donate, Chat, Review)
-│   ├── routes/              # Express route definitions
-│   ├── uploads/               # Uploaded images (food photos, avatars)
-│   ├── server.js               # App entry point (Express + Socket.io + DB)
+│   ├── routes/             # Express route definitions
+│   ├── uploads/            # Uploaded images (food photos, avatars)
+│   ├── server.js           # App entry point (Express + Socket.io + DB)
 │   └── package.json
 │
 ├── frontend/
 │   ├── src/
-│   │   ├── pages/           # Route-level pages (Home, Login, Order, Chat, etc.)
-│   │   ├── donate/            # Donor-facing forms
-│   │   ├── order/               # Receiver-facing browsing pages
-│   │   ├── components/            # Reusable UI components
-│   │   ├── context/                 # Language context/provider
+│   │   ├── pages/           # Route-level pages (Home, Login, Order, Chat)
+│   │   ├── donate/          # Donor-facing forms
+│   │   ├── order/           # Receiver-facing pages
+│   │   ├── components/      # Reusable UI components
+│   │   ├── context/         # Language context/provider
 │   │   ├── App.jsx
 │   │   └── main.jsx
+│   │
 │   └── package.json
 │
 └── README.md
+```
 
 # 🔄 Application Workflow
 
