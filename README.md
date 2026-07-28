@@ -19,25 +19,26 @@ Key Features
 🌐 Multi-language support via a language context/switcher
 🚚 Volunteer dashboard to view available pickup tasks
 
-# Frontend
+##  Tech Stack
 
-React 19 + Vite
-React Router v7
-Tailwind CSS v4
-Axios
-Socket.io-client
-Leaflet / React-Leaflet (maps)
-GSAP & Framer Motion (animations)
-Lucide React (icons)
+### Frontend
+- React 19 + Vite (fast build tool & dev server)
+- React Router v7 (client-side routing)
+- Tailwind CSS v4 (utility-first styling)
+- Axios (HTTP requests)
+- Socket.io-client (real-time communication)
+- Leaflet / React-Leaflet (interactive maps)
+- GSAP & Framer Motion (animations)
+- Lucide React (modern icons)
 
-# Backend
+### Backend
+- Node.js + Express 5 (REST APIs)
+- MongoDB with Mongoose (database modeling)
+- Socket.io (real-time chat & notifications)
+- Multer (file uploads)
+- bcryptjs (password hashing)
+- dotenv (environment configuration)
 
-Node.js + Express 5
-MongoDB with Mongoose
-Socket.io (real-time chat & notifications)
-Multer (file uploads)
-bcryptjs (password hashing)
-dotenv (environment config)
 
 🏗️ Architecture
 
