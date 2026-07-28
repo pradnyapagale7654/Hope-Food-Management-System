@@ -48,9 +48,12 @@ Once claimed, donors and receivers can **chat in real time** to coordinate hando
 
 🏗️ Architecture
 
+```text
 React (Vite) Frontend  ──REST API (Axios)──▶  Express Server ──Mongoose──▶ MongoDB Atlas
         ▲                                            │
         └──────────── WebSocket (Socket.io) ─────────┘
+
+```
         
 The frontend is a single-page React app served by Vite, communicating with the backend via REST for data and Socket.io for real-time chat/notifications.
 The backend is an Express server following an MVC-style structure (models → controllers → routes), backed by MongoDB Atlas.
