@@ -1,4 +1,4 @@
-🍲 Hope Food Management System
+## 🍲 Hope Food Management System
 
 A full-stack food donation and food-waste-reduction platform that connects people with surplus food (Donors) to people who need it (Receivers), with Volunteers to help coordinate pickup/transport. Built with the MERN stack and real-time chat.
 
