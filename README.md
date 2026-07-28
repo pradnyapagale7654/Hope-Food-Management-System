@@ -6,18 +6,20 @@ A full-stack food donation and food-waste-reduction platform that connects peopl
 
 Every day, usable food goes to waste while others go hungry. Hope bridges that gap by letting donors quickly list surplus food — with quantity, category, expiry, and location — and letting nearby receivers browse and claim it. Once claimed, a donor and receiver can chat in real time to coordinate handoff, and afterward rate each other to build trust in the community.
 
-Key Features
-🔐 User authentication — signup/login with hashed passwords (bcrypt)
-🎭 Role-based accounts — Donor, Receiver, Volunteer, Admin
-🥗 Food listings by category — Veg, Non-Veg, Drinks, Snacks, Celebration/leftovers
-📍 Location-aware listings — map view via Leaflet, latitude/longitude on each post
-🖼️ Image uploads for food listings and user avatars (Multer)
-💬 Real-time chat between donor and receiver per food item (Socket.io)
-🔔 Live notifications when a new message arrives
-⭐ Ratings & reviews — post-transaction feedback builds a trust score per user
-⏱️ Automatic cleanup — expired food listings are removed automatically
-🌐 Multi-language support via a language context/switcher
-🚚 Volunteer dashboard to view available pickup tasks
+## ✨ Key Features
+
+- 🔐 Secure signup/login 
+- 🎭 Role-based accounts: Donor, Receiver, Volunteer, Admin
+- 🥗 Food listings by category (Veg, Non-Veg, Drinks, Snacks, Leftovers)
+- 📍 Location-aware posts with **Leaflet maps**
+- 🖼️ Image uploads for listings & avatars (**Multer**)
+- 💬 Real-time donor ↔ receiver chat (**Socket.io**)
+- 🔔 Instant notifications for new messages
+- ⭐ Ratings & reviews to build user trust
+- ⏱️ Auto-removal of expired listings
+- 🌐 Multi-language support with context switcher
+- 🚚 Volunteer dashboard for pickup tasks
+
 
 ##  Tech Stack
 
