@@ -2,9 +2,13 @@
 
 A full-stack food donation and food-waste-reduction platform that connects people with surplus food (Donors) to people who need it (Receivers), with Volunteers to help coordinate pickup/transport. Built with the MERN stack and real-time chat.
 
-📖 About the Project
+## 📖 About the Project
 
-Every day, usable food goes to waste while others go hungry. Hope bridges that gap by letting donors quickly list surplus food — with quantity, category, expiry, and location — and letting nearby receivers browse and claim it. Once claimed, a donor and receiver can chat in real time to coordinate handoff, and afterward rate each other to build trust in the community.
+Every day, usable food goes to waste while others go hungry.  
+**Hope** bridges that gap by enabling donors to quickly list surplus food — with details like quantity, category, expiry, and location — and allowing nearby receivers to browse and claim it.  
+
+Once claimed, donors and receivers can **chat in real time** to coordinate handoff, and afterward **rate each other** to build trust within the community.
+
 
 ## ✨ Key Features
 
