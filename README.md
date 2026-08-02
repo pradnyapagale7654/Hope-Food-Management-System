@@ -1,6 +1,6 @@
 ## 🍲 Hope Food Management System
 
-A full-stack food donation and food-waste-reduction platform that connects people with surplus food (Donors) to people who need it (Receivers), with Volunteers to help coordinate pickup/transport. Built with the MERN stack and real-time chat.
+A  food donation and food-waste-reduction platform that connects people with surplus food (Donors) to people who need it (Receivers), with Volunteers to help coordinate pickup/transport. Built with the MERN stack and real-time chat.
 
 ## 📖 About the Project
 
@@ -15,13 +15,11 @@ Once claimed, donors and receivers can **chat in real time** to coordinate hando
 - 🔐 Secure signup/login 
 - 🎭 Role-based accounts: Donor, Receiver, Volunteer, Admin
 - 🥗 Food listings by category (Veg, Non-Veg, Drinks, Snacks, Leftovers)
-- 📍 Location-aware posts with **Leaflet maps**
 - 🖼️ Image uploads for listings & avatars (**Multer**)
 - 💬 Real-time donor ↔ receiver chat (**Socket.io**)
 - 🔔 Instant notifications for new messages
 - ⭐ Ratings & reviews to build user trust
 - ⏱️ Auto-removal of expired listings
-- 🌐 Multi-language support with context switcher
 - 🚚 Volunteer dashboard for pickup tasks
 
 
@@ -43,7 +41,6 @@ Once claimed, donors and receivers can **chat in real time** to coordinate hando
 - Socket.io (real-time chat & notifications)
 - Multer (file uploads)
 - bcryptjs (password hashing)
-- dotenv (environment configuration)
 
 
 🏗️ Architecture
