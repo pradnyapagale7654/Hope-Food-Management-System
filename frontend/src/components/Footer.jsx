@@ -19,10 +19,24 @@ const Footer = () => {
           </a>
 
           <a
+            href="mailto:pradnyapagale7654@gmail.com"
+            className="flex items-center gap-2 hover:underline"
+          >
+            <Mail size={18} /> pradnyapagale7654@gmail.com
+          </a>
+
+          <a
             href="tel:7083873818"
             className="flex items-center gap-2 hover:underline"
           >
             <Phone size={18} /> 7083873818
+          </a>
+
+          <a
+            href="tel:9561876465"
+            className="flex items-center gap-2 hover:underline"
+          >
+            <Phone size={18} /> 9561876465
           </a>
         </div>
 
@@ -49,6 +63,7 @@ const Footer = () => {
 
         {/* Bottom Note */}
         <p className="text-xs opacity-90 pt-2">
+          Built with care to reduce food waste and spread kindness
             Built with care to reduce food waste and spread kindness
         </p>
       </div>
